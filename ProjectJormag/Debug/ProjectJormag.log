@@ -1,0 +1,129 @@
+﻿  AIBehaviours.cpp
+  GameEndScreen.cpp
+  GameEntity.cpp
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\gameentity.cpp(96): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GameLossScreen.cpp
+  GameManager.cpp
+  GameWinScreen.cpp
+  Level.cpp
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(153): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(154): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(155): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(161): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(162): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(163): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(169): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(170): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(171): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(302): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(316): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(320): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(325): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\level.cpp(330): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  LevelManager.cpp
+  Main.cpp
+  MainMenu.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\type_traits(16707566): warning C4244: 'argument': conversion from '_Cv_TiD' to 'float', possible loss of data
+          with
+          [
+              _Cv_TiD=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\type_traits(16707566): note: see reference to function template instantiation 'void std::_Invoker_functor::_Call<void(__cdecl *&)(Jormag::GUISlider *,float),_Cv_TiD&,double&>(_Callable,_Cv_TiD &,double &) noexcept(false)' being compiled
+          with
+          [
+              _Cv_TiD=Jormag::GUISlider *,
+              _Callable=void (__cdecl *&)(Jormag::GUISlider *,float)
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\type_traits(15732480): note: see reference to function template instantiation 'void std::invoke<void(__cdecl *&)(Jormag::GUISlider *,float),_Cv_TiD&,double&>(_Callable,_Cv_TiD &,double &) noexcept(false)' being compiled
+          with
+          [
+              _Cv_TiD=Jormag::GUISlider *,
+              _Callable=void (__cdecl *&)(Jormag::GUISlider *,float)
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\functional(1857): note: see reference to function template instantiation 'void std::_Invoker_ret<std::_Unforced,false>::_Call<void(__cdecl *&)(Jormag::GUISlider *,float),_Cv_TiD&,double&>(void (__cdecl *&)(Jormag::GUISlider *,float),_Cv_TiD &,double &)' being compiled
+          with
+          [
+              _Cv_TiD=Jormag::GUISlider *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\functional(1914): note: see reference to function template instantiation 'void std::_Call_binder<std::_Unforced,0,1,void(__cdecl *)(Jormag::GUISlider *,float),_Ty2,std::tuple<>>(std::_Invoker_ret<std::_Unforced,false>,std::integer_sequence<_Ty,0,1>,_Cv_FD &,_Cv_tuple_TiD &,_Untuple &&)' being compiled
+          with
+          [
+              _Ty2=std::tuple<Jormag::GUISlider *,double>,
+              _Ty=size_t,
+              _Cv_FD=void (__cdecl *)(Jormag::GUISlider *,float),
+              _Cv_tuple_TiD=std::tuple<Jormag::GUISlider *,double>,
+              _Untuple=std::tuple<>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\type_traits(16707566): note: see reference to function template instantiation 'void std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>::operator ()<>(void)' being compiled
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\type_traits(16707566): note: see reference to function template instantiation 'void std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>::operator ()<>(void)' being compiled
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\type_traits(16707566): note: see reference to function template instantiation 'void std::_Invoker_functor::_Call<_Fx&,>(_Callable) noexcept(false)' being compiled
+          with
+          [
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>,
+              _Callable=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double> &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\type_traits(15732480): note: see reference to function template instantiation 'void std::invoke<_Fx&,>(_Callable) noexcept(false)' being compiled
+          with
+          [
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>,
+              _Callable=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double> &
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\functional(16707566): note: see reference to function template instantiation 'void std::_Invoker_ret<_Rx,true>::_Call<_Callable&>(_Callable &)' being compiled
+          with
+          [
+              _Rx=void,
+              _Callable=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\functional(16707566): note: see reference to function template instantiation 'void std::_Invoker_ret<_Rx,true>::_Call<_Callable&>(_Callable &)' being compiled
+          with
+          [
+              _Rx=void,
+              _Callable=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\functional(15732480): note: while compiling class template member function '_Rx std::_Func_impl_no_alloc<std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>,_Rx>::_Do_call(void)'
+          with
+          [
+              _Rx=void
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\functional(1061): note: see reference to class template instantiation 'std::_Func_impl_no_alloc<std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>,_Ret>' being compiled
+          with
+          [
+              _Ret=void
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\functional(1313): note: see reference to class template instantiation 'std::_Is_large<_Impl>' being compiled
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\functional(1502): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset<std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\functional(1502): note: see reference to function template instantiation 'void std::_Func_class<_Ret>::_Reset<std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>
+          ]
+  g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\mainmenu.cpp(406): note: see reference to function template instantiation 'std::function<void (void)>::function<std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>,void>(_Fx)' being compiled
+          with
+          [
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>
+          ]
+  g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\mainmenu.cpp(406): note: see reference to function template instantiation 'std::function<void (void)>::function<std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>,void>(_Fx)' being compiled
+          with
+          [
+              _Fx=std::_Binder<std::_Unforced,void (__cdecl *)(Jormag::GUISlider *,float),Jormag::GUISlider *&,double>
+          ]
+  MarioManager.cpp
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\mariomanager.cpp(30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\mariomanager.cpp(77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\mariomanager.cpp(136): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  MenuManager.cpp
+  Player.cpp
+  Scripts.cpp
+  Shadow.cpp
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\shadow.cpp(8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\shadow.cpp(9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\shadow.cpp(10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+g:\year 1\games engine creation\semester 2\assignment\shadowrealmgame\projectjormag\mariomanager.cpp(119): warning C4715: 'MarioManager::CheckLoss': not all control paths return a value
+  ProjectJormag.vcxproj -> G:\Year 1\Games Engine Creation\Semester 2\Assignment\ShadowRealmGame\Debug\ProjectJormag.exe

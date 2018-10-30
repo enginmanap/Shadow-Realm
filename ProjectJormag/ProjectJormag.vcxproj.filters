@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{8a44bb35-6235-465a-b0d4-e8683d62ed98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\SDL">
+      <UniqueIdentifier>{3cab74a3-60c9-4fc7-8a7d-b473ed241c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Internal Managers">
+      <UniqueIdentifier>{70fb4ada-aa47-4dfb-857b-feb361793a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Game Objects">
+      <UniqueIdentifier>{dc3336bb-9122-4973-8b63-8cce05f57012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shadow Realm">
+      <UniqueIdentifier>{f8757768-b974-4ba8-bf40-a2642757aadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shadow Realm\Game Objects">
+      <UniqueIdentifier>{a2a85582-e6e8-4d4b-8c2f-888fc23a5e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shadow Realm\Game Objects\Entities">
+      <UniqueIdentifier>{a6f8c963-9674-4d88-b3c1-1e792c7004c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shadow Realm\Game Managers">
+      <UniqueIdentifier>{84fd54e7-d485-403e-b063-647f1c9dc1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{07458a3b-e789-4065-879e-9d47fc1c6890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Internal Managers">
+      <UniqueIdentifier>{f13e5774-1ebc-41d2-8bda-08b9574d1017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Game Objects">
+      <UniqueIdentifier>{db2f2689-819b-4169-ba5f-c81ae019fcc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Game Objects\GUI">
+      <UniqueIdentifier>{a41e71ca-afa4-4e87-b76a-743d3f4a7518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Game Objects\GUI\GUI Objects">
+      <UniqueIdentifier>{35801709-d6cc-4e36-bce5-002570a3e5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadow Realm">
+      <UniqueIdentifier>{d44276bc-8709-42a9-beb2-bfed41ad5aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadow Realm\Game Objects">
+      <UniqueIdentifier>{31ac352d-b4df-4216-90f9-86fb0a2deb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadow Realm\Game Objects\Entities">
+      <UniqueIdentifier>{8c9700e3-07c1-449c-9448-261ec259f01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Physics">
+      <UniqueIdentifier>{d47e1cc0-9c03-418b-b63b-a8086f56e607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Physics">
+      <UniqueIdentifier>{45585307-4a38-4ea0-9e65-6cb938321645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Game Objects\GUI">
+      <UniqueIdentifier>{145945e5-217d-4523-be5d-266251870909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadow Realm\Game Managers">
+      <UniqueIdentifier>{fad3901b-5e68-4058-a1b4-d7c1d6a2b923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadow Realm\GUIs">
+      <UniqueIdentifier>{9e299cd5-83e9-4dbd-b49f-0b793b2d3bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shadow Realm\GUIs">
+      <UniqueIdentifier>{a5ea3e93-af13-44be-be83-c9b5f0e3fe03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mario">
+      <UniqueIdentifier>{2492a627-2400-4ca7-8580-3fc27d880763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mario">
+      <UniqueIdentifier>{76f037ea-4959-4b0f-8628-292f664d0efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mario\Game Managers">
+      <UniqueIdentifier>{f642b0c3-5a0e-4ce1-97d4-23f597a2db77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mario\Game Managers">
+      <UniqueIdentifier>{b656666d-50f0-45eb-b0c5-82ca7399f9aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Engine\Internal Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Engine\Internal Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Engine\Internal Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Engine\Internal Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsManager.cpp">
+      <Filter>Source Files\Engine\Internal Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Source Files\Shadow Realm\Game Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIObject.cpp">
+      <Filter>Source Files\Engine\Game Objects\GUI\GUI Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIButton.cpp">
+      <Filter>Source Files\Engine\Game Objects\GUI\GUI Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Source Files\Shadow Realm\Game Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine\Internal Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Shadow Realm\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Engine\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Engine\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedTexture.cpp">
+      <Filter>Source Files\Engine\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineManager.cpp">
+      <Filter>Source Files\Engine\Internal Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Shadow Realm\Game Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Shadow Realm\Game Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>Source Files\Shadow Realm\Game Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Shadow Realm\GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>Source Files\Shadow Realm\GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWinScreen.cpp">
+      <Filter>Source Files\Shadow Realm\GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Source Files\Shadow Realm\Game Objects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts.cpp">
+      <Filter>Source Files\Shadow Realm</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLossScreen.cpp">
+      <Filter>Source Files\Shadow Realm\GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="AIBehaviours.cpp">
+      <Filter>Source Files\Shadow Realm\Game Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEndScreen.cpp">
+      <Filter>Source Files\Shadow Realm\GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISlider.cpp">
+      <Filter>Source Files\Engine\Game Objects\GUI\GUI Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioManager.cpp">
+      <Filter>Source Files\Mario\Game Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="POWBlock.cpp">
+      <Filter>Source Files\Mario</Filter>
+    </ClCompile>
+    <ClCompile Include="Koopa.cpp">
+      <Filter>Source Files\Mario</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Engine\Internal Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Engine\Internal Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Engine\Internal Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Engine\Internal Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsManager.h">
+      <Filter>Header Files\Engine\Internal Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Header Files\Shadow Realm\Game Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Header Files\Shadow Realm\Game Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Engine\Internal Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Shadow Realm\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Jormag.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Engine\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Engine\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedTexture.h">
+      <Filter>Header Files\Engine\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineManager.h">
+      <Filter>Header Files\Engine\Internal Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Shadow Realm\Game Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files\Engine\Internal Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Shadow Realm\Game Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Header Files\Shadow Realm\Game Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts.h">
+      <Filter>Header Files\Shadow Realm</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\Shadow Realm\GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>Header Files\Shadow Realm\GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWinScreen.h">
+      <Filter>Header Files\Shadow Realm\GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIObject.h">
+      <Filter>Header Files\Engine\Game Objects\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButton.h">
+      <Filter>Header Files\Engine\Game Objects\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Engine\Game Objects\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Header Files\Shadow Realm\Game Objects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AIBehaviours.h">
+      <Filter>Header Files\Shadow Realm\Game Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLossScreen.h">
+      <Filter>Header Files\Shadow Realm\GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEndScreen.h">
+      <Filter>Header Files\Shadow Realm\GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISlider.h">
+      <Filter>Header Files\Engine\Game Objects\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioManager.h">
+      <Filter>Header Files\Mario\Game Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="POWBlock.h">
+      <Filter>Header Files\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="Koopa.h">
+      <Filter>Header Files\Mario</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL\SDL2.lib">
+      <Filter>Header Files\Engine\SDL</Filter>
+    </Library>
+    <Library Include="SDL\SDL2_image.lib">
+      <Filter>Header Files\Engine\SDL</Filter>
+    </Library>
+    <Library Include="SDL\SDL2_mixer.lib">
+      <Filter>Header Files\Engine\SDL</Filter>
+    </Library>
+    <Library Include="SDL\SDL2_ttf.lib">
+      <Filter>Header Files\Engine\SDL</Filter>
+    </Library>
+    <Library Include="SDL\SDL2main.lib">
+      <Filter>Header Files\Engine\SDL</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
