@@ -56,4 +56,4 @@ namespace Jormag {
 	};
 }
 
-#endif;
+#endif
