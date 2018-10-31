@@ -116,6 +116,7 @@ bool MarioManager::CheckLoss(Player* player) {
 			}
 		}
 	}
+	return false;
 }
 
 void MarioManager::CheckPowBlock(Player* player) {

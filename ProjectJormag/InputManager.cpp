@@ -55,6 +55,7 @@ namespace Jormag {
 			if (mKeyboardState[i] != 0)
 				return true;
 		}
+		return false;
 	}
 
 	bool InputManager::AnyKeyPressed() {
@@ -62,6 +63,7 @@ namespace Jormag {
 			if (mLastKeyboardState[i] == 0 && mKeyboardState[i] != 0)
 				return true;
 		}
+		return false;
 	}
 
 	bool InputManager::AnyKeyReleased() {
@@ -69,6 +71,7 @@ namespace Jormag {
 			if (mLastKeyboardState[i] != 0 && mKeyboardState[i] == 0)
 				return true;
 		}
+		return false;
 	}
 
 	bool InputManager::MouseButtonDown(MouseButton button) {
