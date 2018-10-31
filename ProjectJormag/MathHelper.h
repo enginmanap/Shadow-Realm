@@ -43,6 +43,7 @@ namespace Jormag {
 		Vector2& operator -=(const Vector2& rhs) {
 			x -= rhs.x;
 			y -= rhs.y;
+			return *this;
 		}
 
 		Vector2 operator -() const {
