@@ -14,10 +14,10 @@ private:
 	// Singleton Instance
 	static GameManager* sInstance;
 
-	EngineManager* mEngine;
-	MenuManager* mMenu;
-	LevelManager* mGame;
-	MarioManager* mMario;
+	EngineManager* mEngine  = nullptr;
+	MenuManager* mMenu = nullptr;
+	LevelManager* mGame = nullptr;
+	MarioManager* mMario = nullptr;
 
 	std::string mSaveDate;
 	int mTotalDeaths;
