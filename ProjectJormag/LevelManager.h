@@ -11,17 +11,17 @@
 
 class LevelManager : public Jormag::StateManager {
 private:	
-	Graphics* mGraphics;
+	Graphics* mGraphics = nullptr;
 
 	// Game Objects
-	Camera* mCamera;
-	Level* mCurrLevel;
-	Player* mPlayer;
+	Camera* mCamera = nullptr;
+	Level* mCurrLevel = nullptr;
+	Player* mPlayer = nullptr;
 
 	// Flavour
 	unsigned int mLastCamPan;
-	Texture* mStartLabel;
-	Texture* mScoreLabel;
+	Texture* mStartLabel = nullptr;
+	Texture* mScoreLabel = nullptr;
 	bool mLevelFinishing;
 	int mScreenOpacity;
 

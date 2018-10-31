@@ -36,7 +36,7 @@ namespace Jormag {
 		Camera* mCamera;
 
 		// Runtime
-		StateManager* mCurrentGameState;
+		StateManager* mCurrentGameState = nullptr;
 	private:
 		EngineManager();
 		~EngineManager();

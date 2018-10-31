@@ -57,7 +57,7 @@ private:
 	Vector2 mStartPos;
 	Vector2 mEndPos;
 
-	Texture* mBackdrops[3];
+	Texture* mBackdrops[3] = {0};
 	int*** mLevelTileData;
 	Shadow** mShadows;
 private:
