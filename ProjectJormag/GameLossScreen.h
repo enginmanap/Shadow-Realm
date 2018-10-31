@@ -5,7 +5,7 @@
 
 #include "Jormag.h"
 
-enum DeathType;
+enum DeathType: char;
 
 class GameLossScreen : public GameObject {
 private:

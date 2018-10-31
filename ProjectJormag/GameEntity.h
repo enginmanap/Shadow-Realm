@@ -9,7 +9,7 @@
 
 class Level;
 
-enum DeathType {
+enum DeathType : char {
 	NONE,
 	ATTACK,
 	CRUSH,
